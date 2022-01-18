@@ -1,0 +1,31 @@
+{
+    "repository": {},
+    "__outputFolder": null,
+    "blocks": [
+        {
+            "category": "asset_value_tracking",
+            "name": "core-token",
+            "parameters": {
+                "name": "Movie",
+                "symbol": "MOVIE",
+                "supply": "100.000",
+                "decimals": "2"
+            }
+        },
+        {
+            "category": "nft",
+            "name": "core-custom_nft",
+            "parameters": {
+                "template": "collectible"
+            }
+        },
+        {
+            "category": "collection",
+            "name": "core-entity",
+            "parameters": {}
+        }
+    ],
+    "blockchain": "avalanche",
+    "language": "solidity",
+    "framework": "vanilla"
+}
